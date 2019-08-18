@@ -8,7 +8,7 @@ class EmailAddressParser
   end
   
   def parse 
-    p @emal_array
+    @emal_array = "lol"
   
   end
   
