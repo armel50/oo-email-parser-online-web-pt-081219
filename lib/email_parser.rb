@@ -1,11 +1,11 @@
 class EmailAddressParser
   attr_accessor :emails_array
-  @emails_array = []
+  ARRAY = []
   def initialize(emails)
 
     email_separator =  emails.split(/[\s,]/) 
   
-    email_separator.each{|el| @emails_array << el if el != ""}
+    email_separator.each{|el| ARRAY << el if el != ""}
     p @emails_array
   end
   
