@@ -4,8 +4,7 @@ class EmailAddressParser
   def initialize(emails)
 
     email_separator =  emails.split(/[\s,]/) 
-  
-    l = email_separator.collect{|el| email_separator.delete(el) if el ==""}
+  }
     puts "#{l} is what you want"
   end
   
