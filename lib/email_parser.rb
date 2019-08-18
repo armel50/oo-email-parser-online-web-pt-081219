@@ -8,7 +8,8 @@ class EmailAddressParser
   end
   
   def parse 
-    @emal_array
+    p @emal_array
+  
   end
   
 end
