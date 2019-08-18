@@ -4,8 +4,9 @@ class EmailAddressParser
   def initialize(emails)
     @emails_array = []
     email_separator =  emails.split(/[\s,]/) 
-    email_separator = email_separator.delete_if{|el| el == ""}
-    puts "the new email is #{email_separator}"
+    email_separator = email_separator.delete_if{|el| el == ""} 
+    @email_array = email_separator
+    # puts "the new email is #{email_separator}"
   end
   
   def parse 
