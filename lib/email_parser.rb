@@ -11,7 +11,7 @@ class EmailAddressParser
   
   def parse 
     @email_array 
-    p @email_array
+    puts "#{@email_array} youooooo"
   end
   
 end
