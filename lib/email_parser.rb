@@ -2,14 +2,14 @@ class EmailAddressParser
   attr_accessor :emails_array
   ARRAY = []
   def initialize(emails)
-
+    @emails_array = []
     email_separator =  emails.split(/[\s,]/) 
     p email_separator
   end
   
   def parse 
-    @emal_array = "lol"
-    p @emal_array
+    @email_array 
+    p @email_array
   end
   
 end
