@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse 
-   return @email_array 
+   p @email_array 
   
   end
   
