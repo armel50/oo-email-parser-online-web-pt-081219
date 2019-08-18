@@ -11,7 +11,6 @@ class EmailAddressParser
   
   def parse 
     @email_array.uniq 
-  
   end
   
 end
