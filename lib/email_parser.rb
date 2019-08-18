@@ -4,12 +4,11 @@ class EmailAddressParser
   def initialize(emails)
 
     email_separator =  emails.split(/[\s,]/) 
-  }
-    puts "#{l} is what you want"
+    p email_separator
   end
   
   def parse 
-   ARRAY
+    @emal_array
   end
   
 end
